@@ -1,0 +1,9 @@
+[package]
+name = "aptitude-states"
+version = "0.1.0"
+edition = "2021"
+description = "SigmaOS SigmaOS-aptitude-states component - Inspired by Arch Linux and Debian"
+license = "MIT"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-aptitude-states"
+
+[dependencies]
