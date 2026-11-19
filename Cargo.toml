@@ -1,10 +1,15 @@
 [package]
-name = "aptitude-states"
+name = "SigmaOS-aptitude-states"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-aptitude-states component - Inspired by Arch Linux and Debian"
-license = "MIT"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-aptitude-states"
+license = "Apache-2.0"
+description = "SigmaOS aptitude_states component"
+
+[lib]
+name = "aptitude_states"
+path = "src/lib.rs"
 
 [dependencies]
-thiserror = "2"
+thiserror = "1"
+
+[dev-dependencies]
